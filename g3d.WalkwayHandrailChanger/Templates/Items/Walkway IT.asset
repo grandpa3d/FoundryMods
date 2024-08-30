@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1136031467, guid: 1c83dc1f03b8cf43812e942694488c9e, type: 3}
+  m_Name: Walkway IT
+  m_EditorClassIdentifier: 
+  includeIngame: 1
+  includeInBuild: 1
+  includeInDemo: 1
+  identifier: _base_walkway_platform
+  modIdentifier: _base
+  serializedOriginal: "template:\n  name: Walkway\n  includeInCreativeMode: True\n 
+    assetPack: Walkways\n  creativeModeCategory_str: _base_cmct_character_movement\n 
+    entitlementIdentifier: \"\"\n  icon_identifier: walkways_platform\n  stackSize:
+    200\n  isHiddenItem: False\n  flags: BUILDABLE_OBJECT\n  toggleableModeType:
+    MultipleBuildings\n  toggleableModes:\n    - name: Platform\n      icon: Assets/ResourcesV2/Foundry/UI/Icons/256/walkways_platform_transparent_256.png|ea6bea9f4f70e164b9f23cb3da485c9b\n     
+    identifier: _base_walkway_platform\n      isDefault: False\n    - name: Stairs\n     
+    icon: Assets/ResourcesV2/Foundry/UI/Icons/256/walkways_stairs_transparent_256.png|6cf234f83e57d684c8a11864cf0f1d70\n     
+    identifier: _base_walkway_stairs\n      isDefault: False\n    - name: Ledge\n     
+    icon: Assets/ResourcesV2/Foundry/UI/Icons/256/walkway_ledge_transparent_256.png|507e4f754332df7488a512c594c78e11\n     
+    identifier: _base_walkway_ledge\n      isDefault: False\n    - name: Ledge Inside
+    Corner\n      icon: Assets/ResourcesV2/Foundry/UI/Icons/256/walkway_ledge_inside_corner_transparent_256.png|cf8d89d22b6bd204682aece7e99db0a0\n     
+    identifier: _base_walkway_ledge_inside_corner\n      isDefault: False\n    -
+    name: Ledge Outside Corner\n      icon: Assets/ResourcesV2/Foundry/UI/Icons/256/walkway_ledge_outside_corner_transparent_256.png|a5b315ae0c7f54042bcd715e8e1b2320\n     
+    identifier: _base_walkway_ledge_outside_corner\n      isDefault: False\n  genericItemActionButtons:
+    []\n  tooltipInfoMessage: \"\"\n  skipForRunningIdxGeneration: False\n  itemDestroyFlags:
+    Regular\n  meshScale:\n    x: 0.2\n    y: 0.2\n    z: 0.2\n  meshRotation:\n   
+    x: 0\n    y: 0\n    z: 0\n    w: 1\n  buildableObjectIdentifer: _base_walkway_ledge\n 
+    handheldSubType: 0\n  skinGroup:\n  handheld_miner_shakeRightArmOnUse: False\n 
+    handheld_defaultPowerPoleItemTemplate_str: \"\"\n  supportsFocusMode: False\n 
+    miningTimeReductionInSec: 0\n  miningRange: 0\n  explosionRadius: 0\n  burnable_fuelValueKJ_str:
+    \"\"\n  burnable_residualItemTemplate_str: \"\"\n  burnable_residualItemTemplate_count:
+    0\n  salesItem_currencyIdentifier: \"\"\n  salesItem_currencyAmount: 0\n  salesItem_skyPlatformBaseCapacity:
+    0\n  salesItem_sortOrderASC: 0\n  salesItem_hiddenByResearchIdentifier: \"\"\n 
+    salesCurrency_skyPlatformBaseCapacity: 0\n  salesCurrency_sortOrderASC: 0\n 
+    salesCurrency_hiddenByResearchIdentifier: \"\"\n  sciencePack_researchFrameSortingOrder:
+    0\n  sciencePack_color:\n    r: 0\n    g: 0\n    b: 0\n    a: 0\n  railminer_slotLength:
+    0\n  railminer_speedInSlotsPerTick: 0\n  railminer_minecartSpeedInSlotsPerTick:
+    0\n  railMiner_terrainTargetList_str: []\n  isMinecartItem: False\n  trainVehicle_templateIdentifier:
+    \"\"\n  alStarter_alotIdentifier: \"\"\n  alStarter_sellItemTemplateIdentifier:
+    \"\"\n  warehouse_stackSize: 0\n  rubble_recyclingResultIdentifier: \"\"\n  critter_templateIdentifier:
+    \"\"\n  autoProducerRecipes: []\n  identifier: _base_walkway_platform\n"
+  name: Walkway
+  includeInCreativeMode: 1
+  assetPack: Walkways
+  creativeModeCategory_str: _base_cmct_character_movement
+  entitlementIdentifier: 
+  icon_identifier: walkways_platform
+  stackSize: 200
+  isHiddenItem: 0
+  flags: 2
+  toggleableModeType: 1
+  toggleableModes:
+  - name: Platform
+    icon: {fileID: 21300000, guid: ea6bea9f4f70e164b9f23cb3da485c9b, type: 3}
+    identifier: _base_walkway_platform
+    isDefault: 0
+  - name: Stairs
+    icon: {fileID: 21300000, guid: 6cf234f83e57d684c8a11864cf0f1d70, type: 3}
+    identifier: _base_walkway_stairs
+    isDefault: 0
+  - name: Ledge
+    icon: {fileID: 21300000, guid: 507e4f754332df7488a512c594c78e11, type: 3}
+    identifier: _base_walkway_ledge
+    isDefault: 0
+  - name: Ledge Inside Corner
+    icon: {fileID: 21300000, guid: cf8d89d22b6bd204682aece7e99db0a0, type: 3}
+    identifier: _base_walkway_ledge_inside_corner
+    isDefault: 0
+  - name: Ledge Outside Corner
+    icon: {fileID: 21300000, guid: a5b315ae0c7f54042bcd715e8e1b2320, type: 3}
+    identifier: _base_walkway_ledge_outside_corner
+    isDefault: 0
+  - name: Custom Platform All Handrails
+    icon: {fileID: 21300000, guid: 55ed7c94ca459eb44b392552fa78b3bb, type: 3}
+    identifier: _base_walkway_custom_4_handrails
+    isDefault: 0
+  genericItemActionButtons: []
+  tooltipInfoMessage: 
+  skipForRunningIdxGeneration: 0
+  itemDestroyFlags: 0
+  conveyorMesh: {fileID: 0}
+  meshScale: {x: 0.2, y: 0.2, z: 0.2}
+  meshRotation: {x: 0, y: 0, z: 0, w: 1}
+  meshMaterial: {fileID: 0}
+  buildableObjectIdentifer: _base_walkway_ledge
+  handheldSubType: 0
+  handheldObjectPrefab: {fileID: 0}
+  handheldObjectPrefab_droidOnly: {fileID: 0}
+  skinGroup: {fileID: 0}
+  handheld_miner_shakeRightArmOnUse: 0
+  handheld_defaultPowerPoleItemTemplate_str: 
+  supportsFocusMode: 0
+  miningTimeReductionInSec: 0
+  miningRange: 0
+  explosionRadius: 0
+  burnable_fuelValueKJ_str: 
+  burnable_residualItemTemplate_str: 
+  burnable_residualItemTemplate_count: 0
+  salesItem_currencyIdentifier: 
+  salesItem_currencyAmount: 0
+  salesItem_skyPlatformBaseCapacity: 0
+  salesItem_sortOrderASC: 0
+  salesItem_hiddenByResearchIdentifier: 
+  salesCurrency_skyPlatformBaseCapacity: 0
+  salesCurrency_sortOrderASC: 0
+  salesCurrency_hiddenByResearchIdentifier: 
+  sciencePack_researchFrameSortingOrder: 0
+  sciencePack_color: {r: 0, g: 0, b: 0, a: 0}
+  railminer_prefab: {fileID: 0}
+  railminer_slotLength: 0
+  railminer_speedInSlotsPerTick: 0
+  railminer_minecartSpeedInSlotsPerTick: 0
+  railMiner_terrainTargetList_str: []
+  isMinecartItem: 0
+  material_minecartMaterial: {fileID: 0}
+  trainVehicle_templateIdentifier: 
+  alStarter_alotIdentifier: 
+  alStarter_sellItemTemplateIdentifier: 
+  warehouse_stackSize: 0
+  rubble_recyclingResultIdentifier: 
+  critter_templateIdentifier: 
+  autoProducerRecipes: []

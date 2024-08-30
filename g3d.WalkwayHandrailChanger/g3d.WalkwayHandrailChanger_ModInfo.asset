@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -360740676, guid: 1c83dc1f03b8cf43812e942694488c9e, type: 3}
+  m_Name: g3d.WalkwayHandrailChanger_ModInfo
+  m_EditorClassIdentifier: 
+  identifier: g3d.WalkwayHandrailChanger
+  displayName: Modify Walkway Handrail
+  description: Replace standard walkways using walkways with custom handrail locations
+  modType: 0
+  thumbnail: 
+  assetBundles: []
+  assemblies: []
+  dependsOn: []
+  thumbnailTexture: {fileID: 2800000, guid: 6f3850105982f21428db4e44e04ad2dd, type: 3}
